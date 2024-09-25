@@ -49,9 +49,8 @@ async function main() {
     deployResponse.deploy.contract_address,
     provider
   );
-  console.log(
-    ✅ Contract has been deploy with the address: ${myTestContract.address}
-  );
+  console.log(`✅ Contract has been deployed with the address: ${myTestContract.address}`);
+
 }
 main()
   .then(() => process.exit(0))
